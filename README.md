@@ -1,6 +1,6 @@
-# https---github.com-arin1998coder-Typing-Speed-Checker
 
-Typing Speed Checker
+
+Typing Speed Checker - https://arin1998coder.github.io/Typing-Speed-Website/
 
 Built Using Javascript , HTML and CSS.
 
