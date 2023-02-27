@@ -129,6 +129,7 @@ const displayResult = () => {
 //function invoked on start test click
 const startTest = () => {
     mistakes=0;
+    document.getElementById("mistakes").innerText = mistakes;
     userInput.value="";
     timer="";
     time=60;
