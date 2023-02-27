@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="timer-section">
+            <p>Timer: <span id="timer">0s</span></p>
+            <p>Mistakes: <span id="mistakes">0</span></p>
+        </div>
+        <div class="quote-container">
+            <p class="quote"></p>
+        </div>
+        <div class="typing-area">
+            <textarea disabled name="textarea" id="user-input" cols="80%" rows="8%" placeholder="Type here..."></textarea>
+        </div>
+        <button id="start-test" onclick="startTest()">Start Test</button>
+        <button id="stop-test" onclick="displayResult()">Stop Test</button>
+        <div class="result">
+            <h3>Result</h3>
+            <div class="wrapper">
+                <p>Accuracy: <span id="accuracy"></span></p>
+                <p>Speed: <span id="wpm"></span></p>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script> 
+</body>
+</html>
